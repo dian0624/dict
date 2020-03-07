@@ -32,6 +32,6 @@
    2. user_all 客戶表 : user(varchar(32))、password(varchar(32))
    3. history 查詢紀錄 : user(varchar(32))、word(varchar(32))、time(timestamp)
 3. 服務端與客戶端使用**socket模塊**函式組合，採用傳輸層**tcp流式套接字**進行資料傳輸。
-   1. 客戶端利用**sys.argv**綁定用戶啟動程序時命令行參數的列表，利用**try except**捕獲與處理錯誤資訊，輸入密碼時使用**getpass**隱形輸入。
+   1. 客戶端利用**sys.argv**綁定用戶啟動程序時命令行參數的列表，利用**try except捕獲與處理錯誤資訊**，輸入密碼時使用**getpass隱形輸入**。
    2. 服務端使用**pymysql**模塊函式調用數據庫資料，作為和客戶端數據互動的基礎，並**fork多進程**技術進行多個客戶端於不同進程間的訪問，以及使用
       **signal函式**避免殭屍進程的產生占用系統資源。
