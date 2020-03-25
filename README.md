@@ -17,12 +17,13 @@
    用戶名要求不能夠重覆
 
 2. 字典內容與用戶資訊用數據庫長期保存
-
+![image](https://github.com/dian0624/dict/blob/master/image2/888.jpg)
 3. 能夠滿足多個用戶同時登陸操作的需求
-![image](https://github.com/dian0624/dict/blob/master/image2/666.jpg) ![image](https://github.com/dian0624/dict/blob/master/image2/777.jpg)
+![image](https://github.com/dian0624/dict/blob/master/image2/666.jpg) 
+![image](https://github.com/dian0624/dict/blob/master/image2/777.jpg)
 4. 功能分為客戶單和服務端，客戶單主要發起請求，服務端處理請求，用戶啟動客戶端即進入一級界面
+| 登陸 | 註冊 | 退出 |
 
-     | 登陸 | 註冊 | 退出 |
 ![image](https://github.com/dian0624/dict/blob/master/image2/444.jpg)
 	 
 5. 用戶登錄後即進入二級界面
