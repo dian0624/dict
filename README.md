@@ -19,6 +19,7 @@
 2. 字典內容與用戶資訊用數據庫長期保存
 ![image](https://github.com/dian0624/dict/blob/master/image2/888.jpg)
 3. 能夠滿足多個用戶同時登陸操作的需求
+
 ![image](https://github.com/dian0624/dict/blob/master/image2/666.jpg) 
 ![image](https://github.com/dian0624/dict/blob/master/image2/777.jpg)
 4. 功能分為客戶單和服務端，客戶單主要發起請求，服務端處理請求，用戶啟動客戶端即進入一級界面
@@ -35,6 +36,6 @@
      查看歷史記錄： 查看當前用戶的歷史查詞記錄
         name     word    time     
      退出 ： 退出到一級界面
-![image](ttps://github.com/dian0624/dict/blob/master/image2/555.jpg)
+![image](https://github.com/dian0624/dict/blob/master/image2/555.jpg)
 
 
